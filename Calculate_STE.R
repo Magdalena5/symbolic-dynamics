@@ -11,13 +11,13 @@ orbit <- logistic.map(r,a=start.a,b=strong_of_coupling.b,N=N,M=M)
 x <- orbit$x
 y <- orbit$y
 #load data
-nowa <-read.table("Data_path")
-x <- nowa[,1]
-y <- nowa[,2]
+#nowa <-read.table("Data_path")
+#x <- nowa[,1]
+#y <- nowa[,2]
 
 #detrend if we use STE we don't must use detrend
-x <-detrend(x)
-y <-detrend(y)
+#x <-detrend(x)
+#y <-detrend(y)
 
 #using STE function
 data <- STE(x,y)
