@@ -8,9 +8,9 @@ x <- orbit$x
 y <- orbit$y
 
 #load data
-nowa <-read.table("Data_Path")
-x <- nowa[,1]
-y <- nowa[,2]
+#nowa <-read.table("Data_Path")
+#x <- nowa[,1]
+#y <- nowa[,2]
 
 #SCT calculation
 data <- SCT(x,y)
