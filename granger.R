@@ -12,9 +12,9 @@ y <- orbit$y
 
 
 #Using logisticmaps to create a model
-nowa <-read.table("Data Path",sep=" ")
-x <- nowa[,1]
-y <- nowa[,2]
+#nowa <-read.table("Data Path",sep=" ")
+#x <- nowa[,1]
+#y <- nowa[,2]
 
 #'detrend' 
 x <-detrend(x)
